@@ -1,0 +1,13 @@
+table{
+    margin: 13px;
+    width: 100%;
+    background-color: #fff;
+}
+th{
+    background-color: #af5700;
+    color: black;
+}
+td{
+    font-size: 14px;
+}
+

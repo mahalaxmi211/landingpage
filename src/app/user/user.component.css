@@ -1,0 +1,19 @@
+table{
+    margin: 13px;
+    
+    background-color: #fff;
+}
+th{
+    background-color: #af5700;
+    color: black;
+}
+td{
+    font-size: 14px;
+}
+.btnstyle{
+    top: 80px;
+    bottom:12 ;
+    left: 300;
+    right: 0;
+    padding: 13px
+}
