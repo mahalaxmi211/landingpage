@@ -13,7 +13,9 @@ td{
 .btnstyle{
     top: 80px;
     bottom:12 ;
-    left: 300;
+    left: 0;
+    display: flex;
+    justify-content: end;
     right: 0;
     padding: 13px
 }
