@@ -5,3 +5,14 @@
     color: aqua;
     background-color: #fff;
 }
+.para1{
+    padding: 12px;
+    font-size: 12px;
+}
+.imgs{
+    height: 300px;
+    width: 400px;
+    margin-left: 12px;
+    
+    border-radius: 5px;
+}

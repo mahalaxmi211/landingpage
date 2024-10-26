@@ -1,2 +1,19 @@
-<p>popup works!</p>
-<button>press</button>
+@if(isopened == true){
+    <div class="alert alert-danger alertborder" role="alert" id="popup">
+       Deleted Successfully
+      </div>
+}
+<div class="row">
+    <div class="col-12">
+        <h1 class="bg-primary btnsty">Are you sure you want to delete</h1>
+   
+    </div>
+    <div class="col-6">
+        <button class="btn btn-danger ml-2" (click)="yesDelete()">Delete</button>
+    </div>
+    <div class="col-6">
+        <button class="btn btn-primary" mat-dialog-close> Cancel</button>
+    </div>
+</div>
+
+  

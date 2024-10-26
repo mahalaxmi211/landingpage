@@ -10,7 +10,7 @@ export class ServiceService {
   getAllUsers(){
     return this.http.get('https://jsonplaceholder.typicode.com/users')
   }
-  getProduct(){
-    return this.http.get('https://jsonplaceholder.typicode.com/todos')
+  getProduct(companyId:number){
+    return this.http.get(`http://139.59.37.38:3000/api/all?company_id=${companyId}`)
   }
 }

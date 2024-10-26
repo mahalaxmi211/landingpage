@@ -1,20 +1,15 @@
 table{
-    padding: 123px;
     width: 100%;
     background-color: #fff;
 }
 th{
-    background-color: #af5700;
+    background-color: #af5700 !important;
     color: black;
 }
 td{
     font-size: 14px;
 }
-
-.wrapper{
-    padding: 20px;
-    
-}
-table{
-    width: 600px
+.searchheight{
+    height: 40px;
+    width: 250px;
 }

@@ -1,0 +1,36 @@
+.imgg{
+    height: 145px;
+    width: 120px;
+    margin-left: 200px;
+    border-radius: 20px;
+    display: flex;
+
+    justify-content: center;
+}
+.stylehead{
+    margin-left: 100px;
+}
+.custom-form {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preview-image {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  button.btn-primary {
+    width: 100%;
+    font-weight: bold;
+  }
+  

@@ -33,12 +33,17 @@ export class UserComponent implements OnInit {
   isloading:boolean=false
   isedit:boolean=false
   dialog: any;
-  constructor(public  userservice :ServiceService,dialog1:MatDialog){
+  constructor(private  userservice :ServiceService,
+    private dialogRef:MatDialog){
 
   }
   //OpenPopup
   OpenPopUp(){
-    this.dialog.open(PopupComponent)
+    this.dialogRef.open(PopupComponent,{
+      height:'300px',
+      width:'400px',
+      data:'Are you sure'
+    })
   }
    // Toggle all checkboxes when "Select All" is clicked
  isedited(){

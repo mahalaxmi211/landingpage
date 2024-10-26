@@ -5,10 +5,10 @@
 
 <mat-icon class="gapfor">linked</mat-icon>
 <mat-icon class="gapfor"> facebook</mat-icon>
-<mat-icon class="gapfor">share</mat-icon>
+<mat-icon class="gapfor" (click)="formDetails()">account_circle</mat-icon>
 </mat-toolbar>
 <mat-sidenav-container class="sidenav-wrapper">
-  <mat-sidenav opened #nav>
+  <mat-sidenav opened="true" #nav>
     <a routerLink="/home"  >  
       <button mat-button><mat-icon>home</mat-icon><span>Home</span></button>
     </a>

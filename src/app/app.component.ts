@@ -4,6 +4,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { MatDialog } from '@angular/material/dialog';
+import { PicComponent } from './pic/pic.component';
 
 @Component({
   selector: 'app-root',
@@ -17,5 +19,12 @@ export class AppComponent {
   title = 'landingpage';
   toggle(){
     this.isclicked=!this.isclicked
+  }
+  constructor(private matdialog:MatDialog){}
+  formDetails(){
+this.matdialog.open(PicComponent,{
+  height:'500px',
+  width:'500px'
+})
   }
 }
